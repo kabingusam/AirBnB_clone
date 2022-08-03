@@ -74,3 +74,10 @@ Classes in the project:
 | BaseModel     | created_at |  save      |
 |               | updated_at |  to_dict   |
 |               | id         |        |
+
+|   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |PUBLIC CLASS ATTRIBUTES | PRIVATE CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
+| FileStorage    |  |    all   |
+|               |  |      new  |        |
+|               | save         |        |
+|               | reload         |        |
