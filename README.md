@@ -65,3 +65,10 @@ $
 All tests should also pass in non-interactive mode: 
 
     $ echo "python3 -m unittest discover tests" | bash
+
+
+| Left-Aligned  | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
+| :------------ |:--------------------------:|:------------------------|
+| BaseModel     | created_at |  save      |
+|               | updated_at |  to_dict   |
+|               | id         |        |
