@@ -66,7 +66,7 @@ All tests should also pass in non-interactive mode:
 
     $ echo "python3 -m unittest discover tests" | bash
 
-## Classes in the project:
+Classes in the project:
 ========================================
 
 |   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
