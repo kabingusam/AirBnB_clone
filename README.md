@@ -19,9 +19,9 @@ We won’t build this application all at once, but step by step.
 
 The project currently only implements the back-end console.
 
-    -Create your data model
-    -Manage (create, update, destroy, etc) objects via a console / command interpreter
-    -Store and persist objects to a file (JSON file)
+    Create your data model
+    Manage (create, update, destroy, etc) objects via a console / command interpreter
+    Store and persist objects to a file (JSON file)
 
 ## Usage:
 
