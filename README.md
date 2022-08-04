@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+
+=======
 # AirBnB_clone
 
 The goal of the project is to deploy on your server a simple copy of the AirBnB website.
@@ -74,3 +77,5 @@ Classes in the project:
 | BaseModel     | created_at |  save      |
 |               | updated_at |  to_dict   |
 |               | id         |        |
+
+>>>>>>> 22cf62ee1ac37468f5e62a0fcbb230476eff7147
