@@ -87,6 +87,20 @@ Classes in the project:
 
 |   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
+| Place         | Inherits from BaseModel|  city_id      |
+|               |                        |  user_id   |
+|               |                        |name|
+|               |                        |description|
+|               |                        |number_rooms|
+|               |                        |number_bathrooms|
+|               |                        |max_guest|
+|               |                        |price_by_night|
+|               |                        |latitude|
+|               |                        |longitude|
+|               |                        |amenity_ids|
+
+|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
 | User          | Inherits from BaseModel|  email      |
 |               |                        |  password   |
 |               |                        |first_name|
@@ -107,19 +121,7 @@ Classes in the project:
 | :------------ |:--------------------------:|:------------------------|
 | Amenity       | Inherits from BaseModel    |  name	      |
 
-|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
-| :------------ |:--------------------------:|:------------------------|
-| Place         | Inherits from BaseModel|  city_id      |
-|               |                        |  user_id   |
-|               |                        |name|
-|               |                        |description|
-|               |                        |number_rooms|
-|               |                        |number_bathrooms|
-|               |                        |max_guest|
-|               |                        |price_by_night|
-|               |                        |latitude|
-|               |                        |longitude|
-|               |                        |amenity_ids|
+
 
 |   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
