@@ -87,7 +87,7 @@ Classes in the project:
 
 |   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
-| Place         | Inherits from BaseModel|  city_id      |
+| Place     | Inherits from BaseModel|  city_id      |
 |               |                        |  user_id   |
 |               |                        |name|
 |               |                        |description|
@@ -101,19 +101,19 @@ Classes in the project:
 
 |   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
-| User          | Inherits from BaseModel|  email      |
+| User      | Inherits from BaseModel|  email      |
 |               |                        |  password   |
 |               |                        |first_name|
 |               |                        |last_name|
 
 |   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
-| State         | Inherits from BaseModel|  name      |
+| State     | Inherits from BaseModel|  name      |
 
 
 |   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
-| City          | Inherits from BaseModel|  state_id      |
+| City      | Inherits from BaseModel|  state_id      |
 |               |                        |  name   |
 
 
@@ -125,6 +125,6 @@ Classes in the project:
 
 |   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
-| Review          | Inherits from BaseModel|  place_id      |
+| Review        | Inherits from BaseModel|  place_id      |
 |               |                        |  user_id   |
 |               |                        |text|
