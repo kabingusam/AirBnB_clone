@@ -85,3 +85,10 @@ Classes in the project:
 |               | save         |        |
 |               |reload        |        |
 
+|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
+| User     | Inherits from BaseModel|  email      |
+|               |  |  password   |
+|               |         |first_name|
+|               |       |last_name|
+
