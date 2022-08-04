@@ -80,14 +80,14 @@ Classes in the project:
 
 |   | PUBLIC INSTANCE METHODS | PRIVATE CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
-| FileStorage     | all|  file_path      |
+| FileStorage   | all|  file_path      |
 |               | new |  objects   |
 |               | save         |        |
 |               |reload        |        |
 
 |   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
-| User     | Inherits from BaseModel|  email      |
+| User          | Inherits from BaseModel|  email      |
 |               |  |  password   |
 |               |         |first_name|
 |               |       |last_name|
