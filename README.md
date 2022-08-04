@@ -78,4 +78,11 @@ Classes in the project:
 |               | updated_at |  to_dict   |
 |               | id         |        |
 
+
+|   | PUBLIC INSTANCE METHODS | PRIVATE CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
+| FileStorage     | all|  file_path      |
+|               | new |  objects   |
+|               | save         |        |
+|               |reload        |        |
 >>>>>>> 22cf62ee1ac37468f5e62a0fcbb230476eff7147
