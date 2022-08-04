@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 =======
 # AirBnB_clone
@@ -85,4 +84,4 @@ Classes in the project:
 |               | new |  objects   |
 |               | save         |        |
 |               |reload        |        |
->>>>>>> 22cf62ee1ac37468f5e62a0fcbb230476eff7147
+
