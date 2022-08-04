@@ -92,3 +92,37 @@ Classes in the project:
 |               |                        |first_name|
 |               |                        |last_name|
 
+|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
+| State         | Inherits from BaseModel|  name      |
+
+
+|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
+| City          | Inherits from BaseModel|  state_id      |
+|               |                        |  name   |
+
+
+|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
+| Amenity       | Inherits from BaseModel    |  name	      |
+
+|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
+| Place         | Inherits from BaseModel|  city_id      |
+|               |                        |  user_id   |
+|               |                        |name|
+|               |                        |description|
+|               |                        |number_rooms|
+|               |                        |number_bathrooms|
+|               |                        |max_guest|
+|               |                        |price_by_night|
+|               |                        |latitude|
+|               |                        |longitude|
+|               |                        |amenity_ids|
+
+|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
+| :------------ |:--------------------------:|:------------------------|
+| Review          | Inherits from BaseModel|  place_id      |
+|               |                        |  user_id   |
+|               |                        |text|
