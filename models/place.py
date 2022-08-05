@@ -4,7 +4,7 @@ from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """create public class attributes:"""
+    """create public class attributes """
     city_id = ""
     user_id = ""
     name = ""
