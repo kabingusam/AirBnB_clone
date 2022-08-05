@@ -53,7 +53,7 @@ $ echo "help" | ./console.py
 (hbnb)
 
 ## Documented commands (type help <topic>):
-========================================
+
 EOF  help  quit
 (hbnb) 
 $
@@ -64,7 +64,7 @@ $ cat test_help | ./console.py
 (hbnb)
 
 ## Documented commands (type help <topic>):
-========================================
+
 EOF  help  quit
 (hbnb) 
 $
@@ -74,7 +74,7 @@ All tests should also pass in non-interactive mode:
     $ echo "python3 -m unittest discover tests" | bash
 
 ## Classes in the project:
-========================================
+
 
 |  CLASS | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
 | :------------ |:--------------------------:|:------------------------|
