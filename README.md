@@ -77,7 +77,7 @@ All tests should also pass in non-interactive mode:
 ========================================
 
 |  CLASS | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
-| :------------ |:--------------------------:|:------------------------|
+| ============= |=============|=============|
 | BaseModel     | created_at  |  save      |
 |               | updated_at  |  to_dict   |
 |               | id          |            |
