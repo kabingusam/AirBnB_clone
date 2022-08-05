@@ -32,7 +32,7 @@ The interactive mode:
 $ ./console.py
 (hbnb) help
 
-Documented commands (type help <topic>):
+## Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 
@@ -41,12 +41,12 @@ EOF  help  quit
 (hbnb) quit
 $
 
-The non-interactive mode:
+## The non-interactive mode:
 
 $ echo "help" | ./console.py
 (hbnb)
 
-Documented commands (type help <topic>):
+## Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 (hbnb) 
@@ -57,7 +57,7 @@ $
 $ cat test_help | ./console.py
 (hbnb)
 
-Documented commands (type help <topic>):
+## Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 (hbnb) 
@@ -67,7 +67,7 @@ All tests should also pass in non-interactive mode:
 
     $ echo "python3 -m unittest discover tests" | bash
 
-Classes in the project:
+## Classes in the project:
 ========================================
 
 |   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
