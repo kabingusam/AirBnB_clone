@@ -53,7 +53,7 @@ $ echo "help" | ./console.py
 (hbnb)
 
 ## Documented commands (type help <topic>):
-========================================
+
 EOF  help  quit
 (hbnb) 
 $
@@ -64,7 +64,7 @@ $ cat test_help | ./console.py
 (hbnb)
 
 ## Documented commands (type help <topic>):
-========================================
+
 EOF  help  quit
 (hbnb) 
 $
@@ -74,23 +74,20 @@ All tests should also pass in non-interactive mode:
     $ echo "python3 -m unittest discover tests" | bash
 
 ## Classes in the project:
-========================================
 
-|   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
+
+|  CLASS | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
 | :------------ |:--------------------------:|:------------------------|
-| BaseModel     | created_at |  save      |
-|               | updated_at |  to_dict   |
-|               | id         |        |
-
-
-|   | PUBLIC INSTANCE METHODS | PRIVATE CLASS ATTRIBUTES |
+| BaseModel     | created_at  |  save      |
+|               | updated_at  |  to_dict   |
+|               | id          |            |
+|  CLASS | PUBLIC INSTANCE METHODS | PRIVATE CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
 | FileStorage   | all|  file_path      |
 |               | new                  |  objects   |
 |               | save                 |        |
 |               |reload                |        |
-
-|   | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
+| CLASS | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
 | Place     | Inherits from BaseModel|  city_id      |
 |               |                        |  user_id   |
@@ -103,32 +100,23 @@ All tests should also pass in non-interactive mode:
 |               |                        |latitude|
 |               |                        |longitude|
 |               |                        |amenity_ids|
-
-|   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
+| CLASS  | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
 | User      | Inherits from BaseModel|  email      |
 |               |                        |  password   |
 |               |                        |first_name|
 |               |                        |last_name|
-
-|   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
+| CLASS  | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
 | State     | Inherits from BaseModel|  name      |
-
-
-|   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
+| CLASS  | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
 | City      | Inherits from BaseModel|  state_id      |
 |               |                        |  name   |
-
-
-|   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
+| CLASS | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
 | Amenity       | Inherits from BaseModel    |  name	      |
-
-
-
-|   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
+| CLASS | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
 | Review        | Inherits from BaseModel|  place_id      |
 |               |                        |  user_id   |
