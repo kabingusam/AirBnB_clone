@@ -78,11 +78,9 @@ All tests should also pass in non-interactive mode:
 
 |   | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
 | :------------ |:--------------------------:|:------------------------|
-| BaseModel     | created_at |  save      |
-|               | updated_at |  to_dict   |
-|               | id         |        |
-
-
+| BaseModel     | created_at  |  save      |
+|               | updated_at  |  to_dict   |
+|               | id          |            |
 |   | PUBLIC INSTANCE METHODS | PRIVATE CLASS ATTRIBUTES |
 | :------------ |:--------------------------:|:------------------------|
 | FileStorage   | all|  file_path      |
