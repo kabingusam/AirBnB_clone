@@ -3,13 +3,7 @@
 from models.base_model import BaseModel
 
 class City(BaseModel):
-    """Represents a  city
-
-    Attributes:
-    name
-    state_id
-    """
-    
+   """create public class attributes:"""
     state_id = ""
     name = ""
 

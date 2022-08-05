@@ -32,9 +32,6 @@ The interactive mode:
 $ ./console.py
 (hbnb) help
 
-<<<<<<< HEAD
-
-
 ## Documented commands (type help <topic>):
 =======
 ## Documented commands (type help <topic>):

@@ -4,12 +4,7 @@ from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Represents an Amenity
-
-    Attributes:
-    (str): the name of the Amenity.
-    
-    """
+    """create public class attributes:"""
     name = ""
 
     def __init__(self,*args , **kwargs):
