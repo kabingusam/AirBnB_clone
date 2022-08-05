@@ -38,7 +38,7 @@ $ ./console.py
 ## Documented commands (type help <topic>):
 =======
 ## Documented commands (type help <topic>):
->>>>>>> 19029791044354b0a18f4a48f0aa5253b0565d5c
+
 ========================================
 EOF  help  quit
 
