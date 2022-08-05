@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """The Review class"""
+from models.base_model import BaseModel
 
 class Review(BaseModel):
     """create the public class attributes"""
@@ -8,7 +9,7 @@ class Review(BaseModel):
     text = ""
 
     def __init__(self, *args, **kwargs):
-        """Enable Review to accepts attributes"""
+        """Enable Review to accept attributes"""
         if(args and type(args)is dict):
             BaseModel.__init__.(self ,args[0])
         else:
