@@ -9,7 +9,7 @@ class Amenity(BaseModel):
 
     def __init__(self,*args , **kwargs):
         """Enable Amenity to accept arguments"""
-        if (args and (type)is dict):
+        if (args and type(args)is dict):
             BaseModel.__init__(self, args[0])
         else:
             BaseModel.__init__(self)
