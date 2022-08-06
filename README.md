@@ -27,37 +27,41 @@ The command interpreter runs both in the interactive mode  and also  the non-int
 
 The interactive mode:
 
-$ ./console.py
-(hbnb) help
+    $ ./console.py
+    (hbnb) help
 
 Documented commands (type help <topic>):
 
 Documented commands (type help <topic>):
-EOF  help  quit
 
-(hbnb) 
-(hbnb) 
-(hbnb) quit
-$
+    EOF  help  quit
+
+    (hbnb) 
+    (hbnb) 
+    (hbnb) quit
+    $
 
 ### The non-interactive mode:
 
-$ echo "help" | ./console.py
-(hbnb)
+    $ echo "help" | ./console.py
+    (hbnb)
 
 Documented commands (type help <topic>):
-EOF  help  quit
-(hbnb) 
-$
-$ cat test_help
-help
-$
-$ cat test_help | ./console.py
-(hbnb)
-Documented commands (type help <topic>):
-EOF  help  quit
-(hbnb) 
-$
+
+    EOF  help  quit
+    (hbnb) 
+    $
+    $ cat test_help
+    help
+    $
+    $ cat test_help | ./console.py
+    (hbnb)
+
+\Documented commands (type help <topic>):\
+
+    EOF  help  quit
+    (hbnb) 
+    $
 
 All tests should also pass in non-interactive mode: 
 
