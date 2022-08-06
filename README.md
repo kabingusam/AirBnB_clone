@@ -2,7 +2,6 @@
 
 The goal of the project is to deploy on your server a simple copy of the AirBnB website.
 
-## The project as a whole is composed of:
 
 A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging).
 
@@ -43,7 +42,7 @@ EOF  help  quit
 (hbnb) quit
 $
 
-## The non-interactive mode:
+### The non-interactive mode:
 
 $ echo "help" | ./console.py
 (hbnb)
@@ -69,7 +68,7 @@ All tests should also pass in non-interactive mode:
 
     $ echo "python3 -m unittest discover tests" | bash
 
-## Classes in the project:
+### Classes in the project:
 
 | CLASS          | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |PUBLIC CLASS ATTRIBUTES | PRIVATE CLASS ATTRIBUTES |
 | ---------------| -------------------------- | ----------------------- |----------------------- | -----------------------  |
