@@ -30,9 +30,7 @@ The interactive mode:
     $ ./console.py
     (hbnb) help
 
-Documented commands (type help <topic>):
-
-Documented commands (type help <topic>):
+**Documented commands (type help <topic>):**
 
     EOF  help  quit
 
@@ -46,7 +44,7 @@ Documented commands (type help <topic>):
     $ echo "help" | ./console.py
     (hbnb)
 
-Documented commands (type help <topic>):
+**Documented commands (type help <topic>):**
 
     EOF  help  quit
     (hbnb) 
@@ -57,7 +55,7 @@ Documented commands (type help <topic>):
     $ cat test_help | ./console.py
     (hbnb)
 
-\Documented commands (type help <topic>):\
+**Documented commands (type help <topic>):**
 
     EOF  help  quit
     (hbnb) 
