@@ -1,4 +1,3 @@
-
 # AirBnB_clone
 
 The goal of the project is to deploy on your server a simple copy of the AirBnB website.
@@ -49,7 +48,7 @@ $
 $ echo "help" | ./console.py
 (hbnb)
 
-## Documented commands (type help <topic>):
+Documented commands (type help <topic>):
 
 EOF  help  quit
 (hbnb) 
@@ -60,7 +59,7 @@ $
 $ cat test_help | ./console.py
 (hbnb)
 
-## Documented commands (type help <topic>):
+Documented commands (type help <topic>):
 
 EOF  help  quit
 (hbnb) 
@@ -72,49 +71,13 @@ All tests should also pass in non-interactive mode:
 
 ## Classes in the project:
 
-
-|  CLASS | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |
-| :------------ |:--------------------------:|:------------------------|
-| BaseModel     | created_at  |  save      |
-|               | updated_at  |  to_dict   |
-|               | id          |            |
-|  CLASS | PUBLIC INSTANCE METHODS | PRIVATE CLASS ATTRIBUTES |
-| :------------ |:--------------------------:|:------------------------|
-| FileStorage   | all|  file_path      |
-|               | new                  |  objects   |
-|               | save                 |        |
-|               |reload                |        |
-| CLASS | PUBLIC INSTANCE ATTRIBUTES| PUBLIC CLASS ATTRIBUTES |
-| :------------ |:--------------------------:|:------------------------|
-| Place     | Inherits from BaseModel|  city_id      |
-|               |                        |  user_id   |
-|               |                        |name|
-|               |                        |description|
-|               |                        |number_rooms|
-|               |                        |number_bathrooms|
-|               |                        |max_guest|
-|               |                        |price_by_night|
-|               |                        |latitude|
-|               |                        |longitude|
-|               |                        |amenity_ids|
-| CLASS  | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
-| :------------ |:--------------------------:|:------------------------|
-| User      | Inherits from BaseModel|  email      |
-|               |                        |  password   |
-|               |                        |first_name|
-|               |                        |last_name|
-| CLASS  | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
-| :------------ |:--------------------------:|:------------------------|
-| State     | Inherits from BaseModel|  name      |
-| CLASS  | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
-| :------------ |:--------------------------:|:------------------------|
-| City      | Inherits from BaseModel|  state_id      |
-|               |                        |  name   |
-| CLASS | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
-| :------------ |:--------------------------:|:------------------------|
-| Amenity       | Inherits from BaseModel    |  name	      |
-| CLASS | PUBLIC INSTANCE ATTRIBUTES | PUBLIC CLASS ATTRIBUTES |
-| :------------ |:--------------------------:|:------------------------|
-| Review        | Inherits from BaseModel|  place_id      |
-|               |                        |  user_id   |
-|               |                        |text|
+| CLASS          | PUBLIC INSTANCE ATTRIBUTES | PUBLIC INSTANCE METHODS |PUBLIC CLASS ATTRIBUTES | PRIVATE CLASS ATTRIBUTES |
+| ---------------| -------------------------- | ----------------------- |----------------------- | -----------------------  |
+| BaseModel      | created_at,updated_at,id   | save,to_dict            |                        |                          |
+| FileStorage    |                            | all,new,save,reload     |                        | objects                  |
+| User           | Inherits from BaseModel    |               |email,password,first_namelast_name|                          |
+| State          | Inherits from BaseModel    |                         |                        |                          | 
+| City           | Inherits from BaseModel    |                         | state_id               |                          |
+| Amenity        | Inherits from BaseModel    |                         | name                   |                          |
+| Review         | Inherits from BaseModel    |                         | place_id,user_id,text  |                          |
+| Place          | Inherits from BaseModel    |                         |name,description,number_rooms,number_bathrooms,max_guest,price_by_night,latitude,longitude,amenity_ids |
