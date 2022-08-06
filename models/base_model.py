@@ -1,19 +1,51 @@
 #!/usr/bin/python3
-'''Define the BaseModel class'''
-import from models
+"""Defines the BaseModel class."""
+import models
 from uuid import uuid4
 from datetime import datetime
 
-Class BaseModel:
-    '''Represents the BaseModel of the AirBnB project'''
-    def __init__(self, *args, **kwargs):
-        '''initialize a new BaseModel
 
+class BaseModel:
+    """Represents the BaseModel of the AirBnB project."""
+
+    def __init__(self, *args, **kwargs):
+        """Initialize a new BaseModel.
         Args:
-            args : unused
-            kwargs(dict) : keys/value pairs of attributes
-        '''
+            *args (any arguments): Unused.
+            **kwargs (dict): Key/value pairs of attributes.
+        """
         tformat = "%Y-%m-%dT%H:%M:%S.%f"
         self.id = str(uuid4())
         self.created_at = datetime.today()
         self.updated_at = datetime.today()
+
+        if len(kwargs) != 0:
+            for k, v in kwargs.items():
+                if k == "created_at" or k == "updated_at":
+                    self.__dict__[k] = datetime.strptime(v, tformat)
+                else:
+                    self.__dict__[k] = v
+        else:
+            models.storage.new(self)
+
+    #Public instance methods
+    def save(self):
+        """Update updated_at with the current datetime."""
+        self.updated_at = datetime.today()
+        models.storage.save()
+
+    def to_dict(self):
+        """Returns a dictionary containing all keys/values of __dict__ of the instance.
+        Includes the key/value pair __class__ representing
+        the class name of the object.
+        """
+        newDict = self.__dict__.copy()
+        newDict["created_at"] = self.created_at.isoformat()
+        newDict["updated_at"] = self.updated_at.isoformat()
+        newDict["__class__"] = self.__class__.__name__
+        return newDict
+
+    def __str__(self):
+        """Return the str representation of the BaseModel instance."""
+        className = self.__class__.__name__
+        return "[{}] ({}) {}".format(className, self.id, self.__dict__)
