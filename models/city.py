@@ -3,13 +3,8 @@
 from models.base_model import BaseModel
 
 class City(BaseModel):
-<<<<<<< HEAD
-    """create public class attributes:
-    """
-    
-=======
-   """create public class attributes:"""
->>>>>>> da769404f09a9d798eee720bf1f1ac73d3b3c38f
+   """create public class attributes:
+   """
     state_id = ""
     name = ""
 

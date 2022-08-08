@@ -2,14 +2,8 @@
 """The amenity class"""
 from models.base_model import BaseModel
 
-
 class Amenity(BaseModel):
-<<<<<<< HEAD
-    """
-    """
-=======
     """create public class attributes:"""
->>>>>>> da769404f09a9d798eee720bf1f1ac73d3b3c38f
     name = ""
 
     def __init__(self,*args , **kwargs):
