@@ -25,24 +25,23 @@ The interactive mode:
     $ ./console.py
     (hbnb) help
 
-<<<<<<< HEAD
-=======
+
 **Documented commands (type help <topic>):**
->>>>>>> da769404f09a9d798eee720bf1f1ac73d3b3c38f
+
 
     EOF  help  quit
 
-<<<<<<< HEAD
+
 
 ## Documented commands (type help <topic>):
-=======
+
 ## Documented commands (type help <topic>):
-=======
+
     (hbnb) 
     (hbnb) 
     (hbnb) quit
     $
->>>>>>> da769404f09a9d798eee720bf1f1ac73d3b3c38f
+
 
 ### The non-interactive mode:
 
