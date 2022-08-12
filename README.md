@@ -80,4 +80,4 @@ The interactive mode:
 
 Author :
 
-Kabingu Sammy <github.com/kabingusam>
+*kabingu Sammy* - [Github](https://github.com/kabingusam) || [twitter](https://twitter.com/Kabingusammy)
