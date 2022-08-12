@@ -31,10 +31,6 @@ The interactive mode:
 
     EOF  help  quit
 
-
-
-## Documented commands (type help <topic>):
-
 ## Documented commands (type help <topic>):
 
     (hbnb) 
