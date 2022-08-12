@@ -4,30 +4,30 @@
  - HTML is the structure of your page, it should be the first thing to write.
  - CSS is the styling of your page(the design).
 
-[0-index.html](./#)
-[1-index.html](./#)
-[2-index.html](./#)
+- [0-index.html](./#)
+- [1-index.html](./#)
+- [2-index.html](./#)
 
-styles/
+styles
 
-[2-common.css](./#)
-[2-header.css](./#)
-[2-footer.css](./#)
-[3-common.css](./#)
-[3-header.css](./#)
-[3-footer.css](./#)
-[4-common.css](./#)
-[3-header.css](./#)
-[3-footer.css](./#)
-[4-filters.css](./#)
-[5-filters.css](./#)
-[6-filters.css](./#)
-[7-places.css](./#)
-[8-places.css](./#)
-[100-places.css](./#)
-[101-places.css](./#)
-[102-places.css](./#)
-[103-places.css](./#)
+- [2-common.css](./#)
+- [2-header.css](./#)
+- [2-footer.css](./#)
+- [3-common.css](./#)
+- [3-header.css](./#)
+- [3-footer.css](./#)
+- [4-common.css](./#)
+- [3-header.css](./#)
+- [3-footer.css](./#)
+- [4-filters.css](./#)
+- [5-filters.css](./#)
+- [6-filters.css](./#)
+- [7-places.css](./#)
+- [8-places.css](./#)
+- [100-places.css](./#)
+- [101-places.css](./#)
+- [102-places.css](./#)
+- [103-places.css](./#)
 
 images/
 
