@@ -8,7 +8,7 @@
 - [1-index.html](./#)
 - [2-index.html](./#)
 
-styles
+styles/
 
 - [2-common.css](./#)
 - [2-header.css](./#)
