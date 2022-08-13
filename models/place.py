@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-"""The amenity class"""
+"""The Place class"""
 from models.base_model import BaseModel
 
-
-class Amenity(BaseModel):
-    """create public class attributes """
+class Place(BaseModel):
+    """public class attributes"""
     city_id = ""
     user_id = ""
     name = ""
