@@ -8,7 +8,7 @@
 - [1-index.html](./#)
 - [2-index.html](./#)
 
-styles/
+styles/(folder)
 
 - [2-common.css](./#)
 - [2-header.css](./#)
@@ -29,7 +29,7 @@ styles/
 - [102-places.css](./#)
 - [103-places.css](./#)
 
-images/
+images/(folder)
 
  Author :
 
