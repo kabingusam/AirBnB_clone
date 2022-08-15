@@ -80,4 +80,5 @@ The interactive mode:
 
 Author :
 
-**Mwanaharusi Omar Mlongo - [Github](https://github.com/mwanaharusi40) 
+*Kabingu Sammy* - [Github](https://github.com/kabingusam)
+*Mwanaharusi Mlongo* - [Github](https://github.com/mwanaharusi40)  
