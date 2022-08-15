@@ -33,4 +33,4 @@ images/
 
  Author :
 
-*kabingu Sammy* - [Github](https://github.com/kabingusam) || [twitter](https://twitter.com/Kabingusammy)
+*Mwanaharusi Mlongo* - [Github](https://github.com/mwanaharusi40) 
