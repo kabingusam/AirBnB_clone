@@ -56,7 +56,7 @@ The interactive mode:
 
 **Documented commands (type help <topic>):**
 
-    EOF  help  quit
+    MEOF  help  quit
     (hbnb) 
     $
 
@@ -80,4 +80,6 @@ The interactive mode:
 
 Author :
 
-*kabingu Sammy* - [Github](https://github.com/kabingusam) || [twitter](https://twitter.com/Kabingusammy)
+*Kabingu Sammy* - [Github](https://github.com/kabingusam)
+<br>
+ 

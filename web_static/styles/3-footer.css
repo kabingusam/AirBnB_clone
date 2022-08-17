@@ -2,10 +2,17 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+<<<<<<< HEAD
     color: black;
     background-color: white;
     height: 60px;
     border-top: 1px solid #CCCCCC;
+=======
+    color: white;
+    background-color: white;
+    height: 60px;
+    border-top: 1px #CCCCCC;
+>>>>>>> 82d9e4c7025e1a6099b1eba5125852b4c30f80b2
     display: flex;
     justify-content: center;
     align-items: center;
