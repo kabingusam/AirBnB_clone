@@ -2,7 +2,6 @@ header {
     width: 100%;
     background-color: white;
     height: 70px;
-<<<<<<< HEAD
     box-sizing:border-box;
     border-bottom: 1px solid #CCCC;
 }
@@ -11,7 +10,3 @@ img{
     justify-content: center;
     padding-left: 20px;
 }
-=======
-}
-
->>>>>>> 82d9e4c7025e1a6099b1eba5125852b4c30f80b2

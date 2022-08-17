@@ -22,13 +22,23 @@
     right: 0;
     margin: 10px;
 }
-.infromation{
+.price_by_night h3{
+    font-size: 15px;
+    justify-content: space-around;
+}
+.information{
     height:80px;
-    border-top: 1px solid #DDDDDD;
+    border-top: 3px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
 }
 .max_guest{
     width: 100px;
     text-align: center;
     display: flex;
+}
+.places .price_by_night h3{
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    display: block;
 }
